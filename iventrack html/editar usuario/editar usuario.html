@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editar Usuário - IVENTRACK</title>
+  <link rel="stylesheet" href="editar usuario.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">IVENTRACK</div>
+  </header>
+
+  <main>
+    <div class="form-container">
+      <form class="formulario-edicao">
+        <h2>Foto de Perfil</h2>
+        <div class="foto-perfil">
+          <img src="https://img.icons8.com/ios-filled/100/000000/user.png" alt="Foto do usuário">
+          <input type="file" id="foto" name="foto" />
+        </div>
+
+        <div class="grupo">
+          <label for="status">Status da Conta</label>
+          <select id="status">
+            <option>Ativo</option>
+            <option>Inativo</option>
+          </select>
+        </div>
+
+        <div class="grupo">
+          <label for="nome">Nome da Conta</label>
+          <input type="text" id="nome" value="Cl da Silva" />
+        </div>
+
+        <div class="grupo">
+          <label for="email">Email</label>
+          <input type="email" id="email" value="Email@gmail.com" />
+        </div>
+
+        <div class="grupo-permissoes">
+          <label>Permissões</label>
+          <div class="checkboxes">
+            <label><input type="checkbox" /> Admin</label>
+            <label><input type="checkbox" /> Funcionário</label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

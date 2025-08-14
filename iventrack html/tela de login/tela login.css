@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #0b2a51;
+    height: 100vh;
+  }
+  
+  header {
+    background-color: #ddd;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .login-title {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/user-male-circle.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .login-form input {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin: 5px 0 15px 0;
+  }
+  
+  .forgot-password a {
+    font-size: 12px;
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .login-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  
+  .login-links a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
